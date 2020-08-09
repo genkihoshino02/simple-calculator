@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+    text-align: center;
+    height: 100vh;
+    form{
+        padding-top: 20px;
+        width: 100%;
+        
+        #former{
+            height: 30px;
+        }
+        #operator{
+            height: 30px;
+        }
+        #later{
+            height: 30px;
+        }
+    }
+    .calcBtn{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80%;
+        height: 40px;
+    }
+    #result{
+        text-align: center;
+        font-weight: 900;
+        font-size: 30px;
+    }
+    .resultCircle{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .reload{
+        height: 20px;
+        width: 50%;
+        margin: 50px;
+    }
+}
